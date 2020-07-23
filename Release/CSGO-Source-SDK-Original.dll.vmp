@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document Version="2">
+    <Protection InputFileName="CSGO-Source-SDK-Original.dll" Options="857032">
+        <Messages />
+        <Folders>
+            <Folder Name="Dumper" />
+            <Folder Name="Cheat" />
+            <Folder Name="imgui" />
+        </Folders>
+        <Procedures>
+            <Procedure MapAddress="SigData::~SigData(void)" Options="0" Folder="0" CompilationType="1" />
+            <Procedure MapAddress="NetvarData::~NetvarData(void)" Options="0" Folder="0" CompilationType="1" />
+            <Procedure MapAddress="SrcDumper::~SrcDumper(void)" Options="0" Folder="0" />
+            <Procedure MapAddress="Dumper::ProcessSignatures(void)" Options="0" Folder="0" />
+            <Procedure MapAddress="SrcDumper::GenerateOffsets(void)" Options="0" Folder="0" />
+            <Procedure MapAddress="SrcDumper::ProcessNetvars(void)" Options="0" Folder="0" />
+            <Procedure MapAddress="SrcDumper::Dump(void)" Options="0" Folder="0" />
+            <Procedure MapAddress="Init::StartInit(void)" Options="0" Folder="1" CompilationType="1" />
+            <Procedure MapAddress="Init::Free(void)" Options="0" Folder="1" CompilationType="1" />
+            <Procedure MapAddress="Features::Aimbot::Run(void)" Options="0" Folder="1" CompilationType="1" />
+            <Procedure MapAddress="Features::Visuals::Draw(void)" Options="0" Folder="1" CompilationType="1" />
+            <Procedure MapAddress="ImGui::EndGroup(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::BeginGroup(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::ItemAdd(struct ImRect const &amp;,unsigned int,struct ImRect const *)" Options="0" Folder="2" CompilationType="1" />
+            <Procedure MapAddress="ImGui::ItemSize(struct ImVec2 const &amp;,float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::PushID(void const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::PushID(char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::SetItemDefaultFocus(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::SetWindowSize(struct ImGuiWindow *,struct ImVec2 const &amp;,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::SetWindowPos(struct ImGuiWindow *,struct ImVec2 const &amp;,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::FocusTopMostWindowUnderOne(struct ImGuiWindow *,struct ImGuiWindow *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::FocusWindow(struct ImGuiWindow *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::End(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::Begin(char const *,bool *,int)" Options="0" Folder="2" CompilationType="1" />
+            <Procedure MapAddress="ImGui::FindWindowByName(char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::FindWindowByID(unsigned int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::EndChild(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::BeginChildEx(char const *,unsigned int,struct ImVec2 const &amp;,bool,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::IsKeyPressed(int,bool)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::Render(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::EndFrame(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::PushClipRect(struct ImVec2 const &amp;,struct ImVec2 const &amp;,bool)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::Initialize(struct ImGuiContext *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::NewFrame(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::UpdateHoveredWindowAndCaptureFlags(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::UpdateMouseMovingWindowEndFrame(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::UpdateMouseMovingWindowNewFrame(void)" Options="0" Folder="2" CompilationType="1" />
+            <Procedure MapAddress="ImGui::FocusableItemRegister(struct ImGuiWindow *,unsigned int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::ItemHoverable(struct ImRect const &amp;,unsigned int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::IsItemHovered(int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::ClearActiveID(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::SetActiveID(unsigned int,struct ImGuiWindow *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::GcCompactTransientWindowBuffers(struct ImGuiWindow *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGuiWindowTempData::~ImGuiWindowTempData(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGuiWindow::ImGuiWindow(struct ImGuiContext *,char const *)" Options="0" Folder="2" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderNavHighlight(struct ImRect const &amp;,unsigned int,int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderFrameBorder(struct ImVec2,struct ImVec2,float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderFrame(struct ImVec2,struct ImVec2,unsigned int,bool,float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderTextClippedEx(struct ImDrawList *,struct ImVec2 const &amp;,struct ImVec2 const &amp;,char const *,char const *,struct ImVec2 const *,struct ImVec2 const &amp;,struct ImRect const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderTextWrapped(struct ImVec2,char const *,char const *,float)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::RenderText(struct ImVec2,char const *,char const *,bool)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGui::PopStyleVar(int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImTextCountUtf8BytesFromStr(unsigned short const *,unsigned short const *)" Options="0" Folder="2" CompilationType="1" />
+            <Procedure MapAddress="ImHashStr(char const *,unsigned int,unsigned int)" Options="0" Folder="2" CompilationType="1" />
+            <Procedure MapAddress="ImFormatString(char *,unsigned int,char const *,...)" Options="0" Folder="2" CompilationType="1" />
+            <Procedure MapAddress="ImGuiIO::ImGuiIO(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="ImGuiStyle::ImGuiStyle(void)" Options="0" Folder="2" CompilationType="1" />
+            <Procedure MapAddress="Init::InitHooks(void)" Options="0" Folder="1" CompilationType="1" />
+        </Procedures>
+        <Objects />
+    </Protection>
+    <DLLBox>
+        <Folders />
+    </DLLBox>
+    <Script />
+    <LicenseManager />
+</Document>
