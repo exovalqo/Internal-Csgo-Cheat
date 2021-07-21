@@ -1,5 +1,5 @@
 # Internal-Csgo-Cheat
-Original Internal CSGO Cheat by Exovalqo
+Original Internal CSGO Cheat
  
 Hello Everyone!
 This is my first "real" game cheat. This was for educational purposes only.
